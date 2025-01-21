@@ -1,0 +1,19 @@
+# News NLP Evaluation Project
+
+This project provides a simple web application that allows users to submit URLs for sentiment analysis using the Aylien API. It evaluates news articles for polarity and subjectivity, returning insights on the content. This is done using a front-end interface that interacts with a backend API server.
+
+## Features
+
+- **Form submission**: Submit a URL for evaluation.
+- **Real-time API calls**: Fetch sentiment analysis data (polarity, subjectivity, and text snippet) from a remote API.
+- **Error handling**: Handles invalid input and network errors gracefully.
+- **Offline capabilities**: Uses service workers for offline functionality.
+
+## Technologies Used
+
+- **Frontend**: HTML, CSS (SCSS), JavaScript (ES6+)
+- **Backend**: Node.js, Express.js
+- **API**: Aylien API for sentiment analysis
+- **Testing**: Jest for unit testing
+- **Build tools**: Webpack for bundling, Webpack Dev Server for development
+
